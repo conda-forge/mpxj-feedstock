@@ -1,4 +1,4 @@
-{% set version = "10.15.0" %}
+{% set version = "10.16.0" %}
 
 package:
   name: mpxj
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/m/mpxj/mpxj-{{ version }}.tar.gz
-  sha256: 440dc736b5c311f0c3a23d49019d57df33c22e5702ee411b7da8680037ad2195
+  sha256: d41339057d525a5a24938038b54a70ccfe18f3528c559f8396d10261fbc3bbbb
 
 build:
   number: 0

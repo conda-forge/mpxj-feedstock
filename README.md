@@ -1,11 +1,11 @@
-About mpxj
-==========
+About mpxj-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mpxj-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.mpxj.org/
 
 Package license: LGPL-2.1-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mpxj-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python wrapper for the MPXJ Java library for manipulating project files
 

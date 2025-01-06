@@ -9,21 +9,23 @@ source:
   sha256: 265b0b1e33ac7bfbd265c49ce5c03f4c13d20655c9232e58cad7280e646a471f
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - setuptools
     - pip
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - jpype1
     - openjdk
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - mpxj
   commands:
